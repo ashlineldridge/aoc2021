@@ -46,10 +46,10 @@ create_day() {
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "lldb-vscode-launch",
+            "name": "lldb-default",
             "type": "lldb-vscode",
             "request": "launch",
-            "program": "\${workspaceFolder}/${day_dir}/target/debug/${day_dir}",
+            "program": "\${workspaceFolder}/target/debug/${day_dir}",
             "args": [],
 	    "env": {},
             "cwd": "\${workspaceFolder}",

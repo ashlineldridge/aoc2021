@@ -5,7 +5,7 @@
             "name": "lldb-default",
             "type": "lldb-vscode",
             "request": "launch",
-            "program": "${workspaceFolder}/target/debug/day01",
+            "program": "${workspaceFolder}/target/debug/day02",
             "args": [],
 	    "env": {},
             "cwd": "${workspaceFolder}",
