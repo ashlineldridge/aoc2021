@@ -1,11 +1,10 @@
+use anyhow::Result;
 use std::{
     collections::{HashMap, HashSet},
     io::{self, Read},
     ops::{Deref, DerefMut},
     str::FromStr,
 };
-
-use anyhow::Result;
 
 fn main() -> Result<()> {
     let mut input = String::new();
